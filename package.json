@@ -1,0 +1,20 @@
+{
+  "name": "web3helper",
+  "version": "1.0.0",
+  "description": "",
+  "main": "./src/index.ts",
+  "scripts": {
+      "build": "tsc"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "typescript": "^4.6.2"
+  },
+  "dependencies": {
+    "@types/web3": "^1.2.2",
+    "solc": "^0.8.13",
+    "web3": "^1.7.1"
+  }
+}
