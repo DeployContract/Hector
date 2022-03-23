@@ -1,1 +1,1 @@
-# CSC-reactWalletConnect
+# Hector
