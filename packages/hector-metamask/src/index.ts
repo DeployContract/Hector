@@ -1,0 +1,1 @@
+import {Metamask} from "./App";

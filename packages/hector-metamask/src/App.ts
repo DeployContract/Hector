@@ -1,4 +1,4 @@
-import { core } from "../index";
+import { core } from "hector";
 
 export class Metamask implements core.Application {
 
