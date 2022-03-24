@@ -2,14 +2,23 @@ import { core } from "../index";
 
 export class Metamask implements core.Application {
 
+    /**
+     * Wallet that selected by user
+     */
     wallet: string;
+
+    /**
+     * TODO: <Write>
+     */
     window: any;
 
     constructor(window: any) {
         this.window = window;
     }
 
-    // Info: It also can return Promise but its good for now
+    /**
+     * Info: It also can return Promise but its good for now
+     */
     public isMetamaskInstalled(): boolean {
         return Boolean(this.window.ethereum);
     }
@@ -28,8 +37,8 @@ export class Metamask implements core.Application {
         return Promise.resolve(wallet);
     }
 
-    /*
-     * Returns this.wallet
+    /**
+     * @returns {Promise<string>} this.wallet
      */
     public getWallet(): Promise<string> {
         return Promise.resolve(this.wallet);
