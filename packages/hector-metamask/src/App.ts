@@ -1,6 +1,6 @@
-import { core } from "hector";
+import { Application } from "hector";
 
-export class Metamask implements core.Application {
+export class Metamask implements Application {
 
     /**
      * Wallet that selected by user
