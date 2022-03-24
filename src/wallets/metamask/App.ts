@@ -5,13 +5,11 @@ export class Metamask implements core.Application {
     wallet: string;
     window: any;
 
-    // creates a metamask object with check
-    // If installed or not
     constructor(window: any) {
         this.window = window;
     }
 
-    // It also can return Promise but its good for now
+    // Info: It also can return Promise but its good for now
     public isMetamaskInstalled(): boolean {
         return Boolean(this.window.ethereum);
     }
