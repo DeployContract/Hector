@@ -1,15 +1,22 @@
 {
-  "name": "hector",
-  "version": "0.0.1",
-  "description": "",
-  "main": "./dist/index.js",
-  "scripts": {
-    "build-all": "echo Build all sctipt is not implimented."
-  },
-  "keywords": [],
-  "author": "",
-  "license": "MIT",
-  "devDependencies": {
-    "lerna": "^4.0.0"
-  }
+    "name": "hector",
+    "version": "0.0.1",
+    "description": "",
+    "main": "./dist/index.js",
+    "private": true,
+    "workspaces": [
+        "packages/*"
+    ],
+    "scripts": {
+        "test": "lerna run test",
+        "build": "lerna run build",
+        "new-version": "lerna version"
+    },
+    "keywords": [],
+    "author": "AzerothA <telifesite@gmail.com>",
+    "license": "MIT",
+    "devDependencies": {
+        "lerna": "^4.0.0"
+    },
+    "repository": "https://github.com/ContractSupplyChain/Hector.git"
 }

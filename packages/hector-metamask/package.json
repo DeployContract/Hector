@@ -1,15 +1,19 @@
 {
-  "name": "hector-metamask",
-  "version": "1.0.0",
-  "description": "Metamask wallet support for hector",
-  "main": "./dist/index.js",
-  "scripts": {
-    "build": "tsc"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "MIT",
-  "devDependencies": {
-    "typescript": "^4.6.2"
-  }
+    "name": "hector-metamask",
+    "version": "0.0.1",
+    "description": "Metamask wallet support for hector",
+    "main": "./dist/index.js",
+    "scripts": {
+        "build": "tsc",
+        "test": "echo metamask test: not impl"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "MIT",
+    "dependencies": {
+        "hector": "^0.0.1"
+    },
+    "devDependencies": {
+        "typescript": "^4.6.2"
+    }
 }
