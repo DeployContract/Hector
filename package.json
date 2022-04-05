@@ -4,9 +4,12 @@
   "description": "",
   "main": "./dist/index.js",
   "scripts": {
-      "build-all": "echo Build all sctipt is not implimented."
+    "build-all": "echo Build all sctipt is not implimented."
   },
   "keywords": [],
   "author": "",
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "lerna": "^4.0.0"
+  }
 }
