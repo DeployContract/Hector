@@ -1,11 +1,5 @@
 import { Application } from "./application";
 import { log, Status } from "./log";
+import Connect from "./connect";
 
-export {
-    // Application
-    Application,
-    
-    // log
-    log,
-    Status,
-}
+export { Application, log, Status, Connect };

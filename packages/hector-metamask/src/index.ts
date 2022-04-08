@@ -1,1 +1,3 @@
-import {Metamask} from "./App";
+import { Metamask } from "./App";
+
+export default Metamask;
