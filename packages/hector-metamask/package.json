@@ -1,6 +1,6 @@
 {
     "name": "hector-metamask",
-    "version": "0.0.1",
+    "version": "0.0.2",
     "description": "Metamask wallet support for hector",
     "main": "./dist/index.js",
     "scripts": {
@@ -11,7 +11,7 @@
     "author": "",
     "license": "MIT",
     "dependencies": {
-        "hector": "^0.0.1"
+        "hector": "^0.0.2"
     },
     "devDependencies": {
         "typescript": "^4.6.2"
