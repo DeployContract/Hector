@@ -10,9 +10,11 @@
     "keywords": [],
     "author": "",
     "license": "ISC",
-    "devDependencies": {
+    "dependencies": {
         "@qhecuba/hector": "0.0.5-alpha.0",
-        "@qhecuba/hector-metamask": "0.0.5-alpha.0",
+        "@qhecuba/hector-metamask": "0.0.5-alpha.0"
+    },
+    "devDependencies": {
         "@types/react": "^18.0.0",
         "react": "^18.0.0",
         "typescript": "^4.6.2"
