@@ -10,7 +10,8 @@
     "scripts": {
         "test": "lerna run test",
         "build": "lerna run build",
-        "new-version": "lerna version"
+        "new-version": "lerna version",
+        "publish-packages": "lerna publish"
     },
     "keywords": [],
     "author": "AzerothA <telifesite@gmail.com>",

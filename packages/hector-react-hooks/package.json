@@ -1,6 +1,6 @@
 {
-    "name": "@qhecuba/hector",
-    "version": "0.0.2",
+    "name": "@qhecuba/hector-react-hooks",
+    "version": "0.0.1",
     "description": "",
     "main": "./dist/index.js",
     "scripts": {
@@ -11,6 +11,9 @@
     "author": "",
     "license": "ISC",
     "devDependencies": {
+        "@types/react": "^18.0.0",
+        "hector": "0.0.2",
+        "react": "^18.0.0",
         "typescript": "^4.6.2"
     }
 }

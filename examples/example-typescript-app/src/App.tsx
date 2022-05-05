@@ -1,20 +1,15 @@
 import React from "react";
 import logo from "./logo.svg";
 import "./App.css";
-import { Connect, log } from "hector";
-import Metamask from "hector-metamask";
-
-declare var window: any;
+import { useConnect } from "hector-react-hooks";
 
 function App() {
-    const connectToMetamask = () =>
-        new Connect(new Metamask(window))
-            .connect()
-            .then((result) => log(null, result));
+    const [status, setStatus] = useConnect();
 
     return (
         <div className="App">
-            <button onClick={connectToMetamask}>Connect</button>
+            <h1>{1}</h1>
+            <button onClick={alert}>Connect</button>
         </div>
     );
 }
