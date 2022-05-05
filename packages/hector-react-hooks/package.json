@@ -12,7 +12,8 @@
     "license": "ISC",
     "devDependencies": {
         "@types/react": "^18.0.0",
-        "hector": "0.0.2",
+        "hector": "0.0.5-alpha.0",
+        "hector-metamask": "0.0.5-alpha.0",
         "react": "^18.0.0",
         "typescript": "^4.6.2"
     },
