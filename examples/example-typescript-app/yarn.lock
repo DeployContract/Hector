@@ -1399,10 +1399,10 @@
     schema-utils "^3.0.0"
     source-map "^0.7.3"
 
-"@qhecuba/hector-react-hooks@0.0.5":
-  version "0.0.5"
-  resolved "https://registry.yarnpkg.com/@qhecuba/hector-react-hooks/-/hector-react-hooks-0.0.5.tgz#5e547bb152e85756efde0d43d09e53568d288c5b"
-  integrity sha512-YC0bNaKH3eyAa/O/4QnDJwrJMgYhoq9b1MIY2jg/wvScm01LJ9QlCEf7jbjYlNGrjy5d+65Xrmy8litHDEaCRQ==
+"@qhecuba/hector-react-hooks@0.0.7":
+  version "0.0.7"
+  resolved "https://registry.yarnpkg.com/@qhecuba/hector-react-hooks/-/hector-react-hooks-0.0.7.tgz#f9233f23f0445c765d452679c11285cf67f5c6ee"
+  integrity sha512-MJ9wP+oFQfX0dqMRGMx/VOOER13rdbeqXnLIJb4uHA5L02fGrEcqAgNDWNJTWTOIa4G6XnG4KeJN5Q+qF/aIZw==
 
 "@rollup/plugin-babel@^5.2.0":
   version "5.3.1"

@@ -1,6 +1,6 @@
 import { useState } from "react";
-import { Application, Connect } from "hector";
-import Metamask from "hector-metamask";
+import { Application, Connect } from "@qhecuba/hector";
+import Metamask from "@qhecuba/hector-metamask";
 
 declare var window: any;
 

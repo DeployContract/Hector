@@ -1,7 +1,6 @@
-import { Application } from "hector";
+import { Application } from "@qhecuba/hector";
 
 export class Metamask implements Application {
-
     /**
      * Wallet that selected by user
      */
@@ -28,9 +27,14 @@ export class Metamask implements Application {
      */
     public connect(): Promise<string> {
         // Now recive wallet address from user
-        const wallet = this.window.ethereum.request({ method: 'eth_requestAccounts' })
+        const wallet = this.window.ethereum
+            .request({ method: "eth_requestAccounts" })
             .then((accounts: Array<string>) => accounts[0])
-            .catch((err: any) => Promise.reject("Cant get wallet address ! Metamask Error: " + err));
+            .catch((err: any) =>
+                Promise.reject(
+                    "Cant get wallet address ! Metamask Error: " + err
+                )
+            );
 
         this.wallet = wallet;
 
@@ -48,7 +52,8 @@ export class Metamask implements Application {
      * Returns selected chainId
      */
     public chainId(): Promise<number> {
-        const id = this.window.ethereum.request({ method: 'eth_chainId' })
+        const id = this.window.ethereum
+            .request({ method: "eth_chainId" })
             .then((id: number) => id)
             .catch((err: any) => Promise.reject(err));
 

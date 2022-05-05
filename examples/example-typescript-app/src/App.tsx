@@ -1,16 +1,22 @@
 import React from "react";
 import logo from "./logo.svg";
 import "./App.css";
-import { useConnect } from "@qhecuba/hector-react-hooks";
-
-declare var window: any;
+import { useConnect, wallets } from "@qhecuba/hector-react-hooks";
+import { useEffect } from "react";
 
 function App() {
-    const [] = useConnect();
+    const [status, connect, getWallet] = useConnect(wallets.metamask());
+
+    useEffect(() => {
+        connect();
+        getWallet();
+    }, []);
+
     return (
         <div className="App">
-            <h1>{1}</h1>
-            <button onClick={alert}>Connect</button>
+            <h1>{status.isConnected ? "Connected" : "Not connected"}</h1>
+            <p>Wallet: {status.wallet}</p>
+            <button onClick={connect}>Connect</button>
         </div>
     );
 }
