@@ -2,6 +2,8 @@
 
 Hector React hooks
 
+This package also installs hector-metamask and hector packages.
+
 # Install
 
 Npm:
