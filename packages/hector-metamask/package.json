@@ -1,6 +1,6 @@
 {
     "name": "@qhecuba/hector-metamask",
-    "version": "0.0.3",
+    "version": "0.0.4",
     "description": "Metamask wallet support for hector",
     "main": "./dist/index.js",
     "scripts": {
@@ -15,5 +15,6 @@
     },
     "devDependencies": {
         "typescript": "^4.6.2"
-    }
+    },
+    "gitHead": "3a5b3389b9d07ed032bb7526b531e4998c9d0fe9"
 }

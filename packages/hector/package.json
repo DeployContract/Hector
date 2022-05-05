@@ -1,6 +1,6 @@
 {
     "name": "@qhecuba/hector",
-    "version": "0.0.3",
+    "version": "0.0.4",
     "description": "",
     "main": "./dist/index.js",
     "scripts": {
@@ -12,5 +12,6 @@
     "license": "ISC",
     "devDependencies": {
         "typescript": "^4.6.2"
-    }
+    },
+    "gitHead": "3a5b3389b9d07ed032bb7526b531e4998c9d0fe9"
 }
