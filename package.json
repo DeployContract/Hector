@@ -11,7 +11,8 @@
         "test": "lerna run test",
         "build": "lerna run build",
         "new-version": "lerna version",
-        "publish-packages": "lerna publish"
+        "publish-packages": "lerna publish",
+        "force-publish-packages": "lerna publish --force-publish"
     },
     "keywords": [],
     "author": "AzerothA <telifesite@gmail.com>",
