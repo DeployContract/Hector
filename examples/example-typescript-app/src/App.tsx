@@ -1,15 +1,12 @@
 import React from "react";
 import logo from "./logo.svg";
 import "./App.css";
-import { Connect } from "@qhecuba/hector";
-import Metamask from "@qhecuba/hector-metamask";
+import { useConnect } from "@qhecuba/hector-react-hooks";
 
 declare var window: any;
 
 function App() {
-    // const connection = new Connect(new Metamask(window));
-    // connection.connect().then((isConnectd) => console.log(isConnectd));
-
+    const [] = useConnect();
     return (
         <div className="App">
             <h1>{1}</h1>

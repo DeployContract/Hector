@@ -1399,17 +1399,10 @@
     schema-utils "^3.0.0"
     source-map "^0.7.3"
 
-"@qhecuba/hector-metamask@^0.0.5-alpha.0":
-  version "0.0.5-alpha.0"
-  resolved "https://registry.yarnpkg.com/@qhecuba/hector-metamask/-/hector-metamask-0.0.5-alpha.0.tgz#988050f6374d9a44ec4288d28b011d0066229988"
-  integrity sha512-g5HKxrKc4t48eq86xRBrWngcY0oMtOTJQlDWOvf8LeErzufSQqP1BLrtSPt4Qfwaz6+nB8TgakWrby4XXnQa/w==
-  dependencies:
-    hector "^0.0.2"
-
-"@qhecuba/hector@^0.0.5-alpha.0":
-  version "0.0.5-alpha.0"
-  resolved "https://registry.yarnpkg.com/@qhecuba/hector/-/hector-0.0.5-alpha.0.tgz#25fa28582d6edfe405426a2c909170470d58b39b"
-  integrity sha512-KFZnrcpWY7gh8MIMAqgsuG4QIqXmhtRpp8RL+qDiWU24TAFCLYnpKRqyvzmGDp+ymBaYNOyRGe8fZfmc2wqPQw==
+"@qhecuba/hector-react-hooks@0.0.5":
+  version "0.0.5"
+  resolved "https://registry.yarnpkg.com/@qhecuba/hector-react-hooks/-/hector-react-hooks-0.0.5.tgz#5e547bb152e85756efde0d43d09e53568d288c5b"
+  integrity sha512-YC0bNaKH3eyAa/O/4QnDJwrJMgYhoq9b1MIY2jg/wvScm01LJ9QlCEf7jbjYlNGrjy5d+65Xrmy8litHDEaCRQ==
 
 "@rollup/plugin-babel@^5.2.0":
   version "5.3.1"
@@ -4451,11 +4444,6 @@ he@^1.2.0:
   version "1.2.0"
   resolved "https://registry.npmjs.org/he/-/he-1.2.0.tgz"
   integrity sha512-F/1DnUGPopORZi0ni+CvrCgHQ5FyEAHRLSApuYWMmrbSwoN2Mn/7k+Gl38gJnR7yyDZk6WLXwiGod1JOWNDKGw==
-
-hector@^0.0.2:
-  version "0.1.0"
-  resolved "https://registry.yarnpkg.com/hector/-/hector-0.1.0.tgz#8ccc5241fad78f8fccfce07e681b577307805bbb"
-  integrity sha1-jMxSQfrXj4/M/OB+aBtXcweAW7s=
 
 hoopy@^0.1.4:
   version "0.1.4"
