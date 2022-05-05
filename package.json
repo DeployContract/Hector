@@ -21,8 +21,5 @@
     "devDependencies": {
         "lerna": "^4.0.0"
     },
-    "publishConfig": {
-        "access": "public"
-    },
     "repository": "https://github.com/ContractSupplyChain/Hector.git"
 }
