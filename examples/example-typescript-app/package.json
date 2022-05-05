@@ -2,7 +2,7 @@
     "name": "example-typescript-app",
     "version": "0.1.0",
     "dependencies": {
-        "@qhecuba/hector-react-hooks": "0.0.7",
+        "@qhecuba/hector-react-hooks": "0.0.9",
         "@testing-library/jest-dom": "^5.16.4",
         "@testing-library/react": "^12.1.4",
         "@testing-library/user-event": "^13.5.0",
