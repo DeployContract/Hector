@@ -23,16 +23,22 @@ interface ConnectionStatus {
      * Wallet witch user selected
      */
     wallet: string | null;
+
+    /**
+     * Selected chainId
+     */
+    chainId: string | null;
 }
 
 type setter = () => void;
-type useConnectReturns = [ConnectionStatus, setter, setter];
+type useConnectReturns = [ConnectionStatus, setter, setter, setter];
 
 function useConnect(wallet: Application): useConnectReturns {
     const [state, setState] = useState<ConnectionStatus>({
         isConnected: false,
         error: null,
         wallet: null,
+        chainId: null,
     });
 
     const newStat = (stat: object) => setState({ ...state, ...stat });
@@ -59,7 +65,13 @@ function useConnect(wallet: Application): useConnectReturns {
             .then((address) => newStat({ wallet: address }))
             .catch((err) => newStat({ error: err }));
 
-    return [state, connect, getWallet];
+    const getChainId: setter = () =>
+        connection
+            .getChainId()
+            .then((id) => newStat({ chainId: id }))
+            .catch((err) => newStat({ error: err }));
+
+    return [state, connect, getWallet, getChainId];
 }
 
 export default useConnect;
