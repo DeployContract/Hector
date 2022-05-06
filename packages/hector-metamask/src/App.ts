@@ -51,10 +51,10 @@ export class Metamask implements Application {
     /*
      * Returns selected chainId
      */
-    public chainId(): Promise<number> {
+    public getChainId(): Promise<string> {
         const id = this.window.ethereum
             .request({ method: "eth_chainId" })
-            .then((id: number) => id)
+            .then((id: string) => id)
             .catch((err: any) => Promise.reject(err));
 
         return Promise.resolve(id);
