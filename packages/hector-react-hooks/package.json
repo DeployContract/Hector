@@ -1,6 +1,6 @@
 {
     "name": "@qhecuba/hector-react-hooks",
-    "version": "0.0.10",
+    "version": "0.0.11",
     "description": "",
     "main": "./dist/index.js",
     "scripts": {
@@ -11,8 +11,8 @@
     "author": "",
     "license": "ISC",
     "dependencies": {
-        "@qhecuba/hector": "0.0.7",
-        "@qhecuba/hector-metamask": "0.0.7"
+        "@qhecuba/hector": "0.0.8",
+        "@qhecuba/hector-metamask": "0.0.8"
     },
     "devDependencies": {
         "@types/react": "^18.0.0",
