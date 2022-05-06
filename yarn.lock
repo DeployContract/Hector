@@ -896,18 +896,6 @@
   dependencies:
     "@octokit/openapi-types" "^11.2.0"
 
-"@qhecuba/hector-metamask@0.0.5-alpha.0":
-  version "0.0.5-alpha.0"
-  resolved "https://registry.yarnpkg.com/@qhecuba/hector-metamask/-/hector-metamask-0.0.5-alpha.0.tgz#988050f6374d9a44ec4288d28b011d0066229988"
-  integrity sha512-g5HKxrKc4t48eq86xRBrWngcY0oMtOTJQlDWOvf8LeErzufSQqP1BLrtSPt4Qfwaz6+nB8TgakWrby4XXnQa/w==
-  dependencies:
-    hector "^0.0.2"
-
-"@qhecuba/hector@0.0.5-alpha.0":
-  version "0.0.5-alpha.0"
-  resolved "https://registry.yarnpkg.com/@qhecuba/hector/-/hector-0.0.5-alpha.0.tgz#25fa28582d6edfe405426a2c909170470d58b39b"
-  integrity sha512-KFZnrcpWY7gh8MIMAqgsuG4QIqXmhtRpp8RL+qDiWU24TAFCLYnpKRqyvzmGDp+ymBaYNOyRGe8fZfmc2wqPQw==
-
 "@tootallnate/once@1":
   version "1.1.2"
   resolved "https://registry.yarnpkg.com/@tootallnate/once/-/once-1.1.2.tgz#ccb91445360179a04e7fe6aff78c00ffc1eeaf82"
@@ -2099,11 +2087,6 @@ has@^1.0.3:
   integrity sha512-f2dvO0VU6Oej7RkWJGrehjbzMAjFp5/VKPp5tTpWIV4JHHZK1/BxbFRtf/siA2SWTe09caDmVtYYzWEIbBS4zw==
   dependencies:
     function-bind "^1.1.1"
-
-hector@^0.0.2:
-  version "0.1.0"
-  resolved "https://registry.yarnpkg.com/hector/-/hector-0.1.0.tgz#8ccc5241fad78f8fccfce07e681b577307805bbb"
-  integrity sha1-jMxSQfrXj4/M/OB+aBtXcweAW7s=
 
 hosted-git-info@^2.1.4:
   version "2.8.9"
