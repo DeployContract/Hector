@@ -896,6 +896,11 @@
   dependencies:
     "@octokit/openapi-types" "^11.2.0"
 
+"@qhecuba/hector@^0.0.7":
+  version "0.0.7"
+  resolved "https://registry.yarnpkg.com/@qhecuba/hector/-/hector-0.0.7.tgz#50846a3506d2cc9e2a736c0769198f72e5380461"
+  integrity sha512-3fo20FxtkIi+UyhU0CFdX90bfRftgF9qoGsYyLQ8rX5rjiaHJ9F9WGFMHv/PA6FzD0NKRaLZlr79AMN5kCWjkw==
+
 "@tootallnate/once@1":
   version "1.1.2"
   resolved "https://registry.yarnpkg.com/@tootallnate/once/-/once-1.1.2.tgz#ccb91445360179a04e7fe6aff78c00ffc1eeaf82"
