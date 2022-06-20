@@ -18,4 +18,9 @@ export interface Application {
      * Returns selected chain id
      */
     getChainId(): Promise<string>;
+
+    /**
+     * Api that wallet sets 
+     */
+    window?: Window | typeof Proxy;
 }

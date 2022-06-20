@@ -31,7 +31,7 @@ interface ConnectionStatus {
 }
 
 type setter = () => void;
-type useConnectReturns = [ConnectionStatus, setter, setter, setter];
+type useConnectReturns = [ConnectionStatus, setter, setter, setter, () => Application];
 
 function useConnect(wallet: Application): useConnectReturns {
     const [state, setState] = useState<ConnectionStatus>({
@@ -71,7 +71,10 @@ function useConnect(wallet: Application): useConnectReturns {
             .then((id) => newStat({ chainId: id }))
             .catch((err) => newStat({ error: err }));
 
-    return [state, connect, getWallet, getChainId];
+    const app = (): Application =>
+        connection.app();
+
+    return [state, connect, getWallet, getChainId, app];
 }
 
 export default useConnect;
